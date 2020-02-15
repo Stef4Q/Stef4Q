@@ -1,6 +1,9 @@
 <!DOCTYPE HTML>
 <html>
 <head>
+  <link rel="stylesheet" href="https://unpkg.onsenui/css/onsenui.css">
+  <link rel="stylesheet" href="https://unpkg.onsenui/css/onsen-css-components.min.css">
+  <script scr= "https://unpkg.com/onsenui/js/onsenui.mis.js"></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: content: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
@@ -11,7 +14,27 @@
     </script>
 </head>
 <body>
-	<br />
+	<ons-page>
+    <div style="text-allign: center; margin-top: 200px">
+      <p>
+        <ons-input id="username" placeholder="Username" modifier="underbar">
+        </ons-input>
+      </p>
+
+      <p>
+        <ons-input 
+          id="password"
+          placeholder="Password"
+          type="password"
+          modifier="underbar">
+        </ons-input>
+        </p>
+
+        <p>
+          <ons-button><Sign in</ons-button>
+       </p>
+    </div>
+    </ons-page>
    <p style='color:green'>Here is green text</p>
 </body>
 </html>
